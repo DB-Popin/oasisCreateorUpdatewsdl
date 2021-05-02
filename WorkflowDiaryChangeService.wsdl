@@ -4,10 +4,10 @@
 <definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://www.delphi-tech.com/ows/WorkflowDiaryChangeService" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://www.delphi-tech.com/ows/WorkflowDiaryChangeService" name="WorkflowDiaryChangeService">
     <types>
         <xsd:schema>
-            <xsd:import namespace="http://www.delphi-tech.com/ows/Party" schemaLocation="http://ny2-wlpra02.ad.dti:8093/ny2-wlpra02/pra32dev/eCS/wsCS/WorkflowDiaryChangeService?xsd=2" />
-            <xsd:import namespace="http://www.delphi-tech.com/ows/Common" schemaLocation="http://ny2-wlpra02.ad.dti:8093/ny2-wlpra02/pra32dev/eCS/wsCS/WorkflowDiaryChangeService?xsd=1" />
-            <xsd:import namespace="http://www.delphi-tech.com/ows/WorkflowDiary" schemaLocation="http://ny2-wlpra02.ad.dti:8093/ny2-wlpra02/pra32dev/eCS/wsCS/WorkflowDiaryChangeService?xsd=3" />
-            <xsd:import namespace="http://www.delphi-tech.com/ows/WorkflowDiaryChangeService" schemaLocation="http://ny2-wlpra02.ad.dti:8093/ny2-wlpra02/pra32dev/eCS/wsCS/WorkflowDiaryChangeService?xsd=4" />
+            <xsd:import namespace="http://www.delphi-tech.com/ows/Party" schemaLocation="http://10.199.5.241:8093/ny2-wlpra02/pra32dev/eCS/wsCS/WorkflowDiaryChangeService?xsd=2" />
+            <xsd:import namespace="http://www.delphi-tech.com/ows/Common" schemaLocation="http://10.199.5.241:8093/ny2-wlpra02/pra32dev/eCS/wsCS/WorkflowDiaryChangeService?xsd=1" />
+            <xsd:import namespace="http://www.delphi-tech.com/ows/WorkflowDiary" schemaLocation="http://10.199.5.241:8093/ny2-wlpra02/pra32dev/eCS/wsCS/WorkflowDiaryChangeService?xsd=3" />
+            <xsd:import namespace="http://www.delphi-tech.com/ows/WorkflowDiaryChangeService" schemaLocation="http://10.199.5.241:8093/ny2-wlpra02/pra32dev/eCS/wsCS/WorkflowDiaryChangeService?xsd=4" />
         </xsd:schema>
     </types>
     <message name="workflowDiaryChangeRequest">
@@ -36,7 +36,7 @@
     </binding>
     <service name="WorkflowDiaryChangeService">
         <port name="WorkflowDiaryChangePort" binding="tns:WorkflowDiaryChangeBinding">
-            <soap:address location="http://ny2-wlpra02.ad.dti:8093/ny2-wlpra02/pra32dev/eCS/wsCS/WorkflowDiaryChangeService" />
+            <soap:address location="http://10.199.5.241:8093/ny2-wlpra02/pra32dev/eCS/wsCS/WorkflowDiaryChangeService" />
         </port>
     </service>
 </definitions>
